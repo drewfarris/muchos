@@ -13,6 +13,7 @@
   with_items:
     - generic_logger.properties
     - generic_logger.xml
+    - hadoop-metrics2-accumulo.properties
 - name: "configure accumulo using managed templates"
   template: src={{ item }} dest={{ accumulo_home }}/conf/{{ item }}
   with_items:

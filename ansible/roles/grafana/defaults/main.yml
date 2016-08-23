@@ -1,2 +1,2 @@
-grafana_rpm: grafana-2.5.0-1.x86_64.rpm
-grafana_sha256: ada02f1d4cdaa6397ef1c2e013200d0e8f30675205092a817e81d47ea17f47ad
+grafana_rpm: grafana-3.1.0-1468321182.x86_64.rpm
+grafana_sha256: 28c1cda01d0aca892d17468d451c13655918e2d08e44195247ddec75c6906984

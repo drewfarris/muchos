@@ -17,7 +17,7 @@
   retries: 3
   with_items:
     - { urlp: "{{ apache_mirror.stdout }}/zookeeper/zookeeper-{{ zookeeper_version }}", fn: "{{ zookeeper_tarball }}", sum: "{{ zookeeper_sha256 }}" }
-    - { urlp: "{{ apache_mirror.stdout }}/hadoop/common/hadoop-{{ hadoop_version }}", fn: "{{ hadoop_tarball }}", sum: "{{ hadoop_sha256 }}" }
+    - { urlp: "{{ hadoop_dist_url }}", fn: "{{ hadoop_tarball }}", sum: "{{ hadoop_sha256 }}" }
     - { urlp: "{{ apache_mirror.stdout }}/maven/maven-3/{{ maven_version }}/binaries", fn: "{{ maven_tarball }}", sum: "{{ maven_sha256 }}" }
     - { urlp: "{{ apache_mirror.stdout }}/spark/spark-{{ spark_version }}", fn: "{{ spark_tarball }}", sum: "{{ spark_sha256 }}" }
     - { urlp: "{{ apache_mirror.stdout }}/accumulo/{{ accumulo_version }}", fn: "{{ accumulo_tarball }}", sum: "{{ accumulo_sha256 }}" }

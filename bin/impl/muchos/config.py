@@ -305,6 +305,7 @@ PLAY_VAR_DEFAULTS = {
 'fluo_worker_threads': None,
 'force_format': None,
 'fstype': None,
+'hadoop_dist_url' : None,
 'hadoop_sha256': None,
 'hub_version': '2.2.3',
 'hub_home': '"{{ install_dir }}/hub-linux-amd64-{{ hub_version }}"',
